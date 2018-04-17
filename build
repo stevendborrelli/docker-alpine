@@ -1,6 +1,7 @@
-#!/usr/bin/env sh
+#!/bin/bash
 
 echo "starting script..."
+env
 
 shopt -s globstar
 
