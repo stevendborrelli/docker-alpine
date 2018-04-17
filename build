@@ -1,11 +1,5 @@
 #!/usr/bin/env bash
 
-echo "starting script..."
-env
-
-cat /etc/alpine-release
-ls -al /bin/*sh
-
 shopt -s globstar
 
 image_pull() {
