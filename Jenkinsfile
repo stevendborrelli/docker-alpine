@@ -10,7 +10,7 @@ podTemplate(label: podLabel,
         ),
         containerTemplate(
             name: 'gcloud',
-            image: 'google/cloud-sdk:196.0.0-slim',
+            image: 'google/cloud-sdk:196.0.0',
             ttyEnabled: true,
             command: 'cat'
         )
