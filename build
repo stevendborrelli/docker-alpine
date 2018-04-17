@@ -3,6 +3,8 @@
 echo "starting script..."
 env
 
+cat /etc/alpine-release
+
 shopt -s globstar
 
 image_pull() {
