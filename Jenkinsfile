@@ -36,7 +36,7 @@ podTemplate(label: podLabel,
                 echo 'Building docker image...'
                 sh("apk update")
                 sh("apk add bash")
-                sh(./build ${version}")
+                sh("./build ${version}")
             }
         }
 
