@@ -34,7 +34,7 @@ podTemplate(label: podLabel,
         stage('Build') {
             container('docker') {
                 echo 'Building docker image...'
-                sh("build ${version}")
+                sh("pwd; ./build ${version}")
             }
         }
 
